@@ -1,0 +1,15 @@
+.box{
+    border: 2px solid;
+    padding: 15px;
+    box-sizing: border-box;
+    height: auto;
+    width: 50%;
+    float: left;
+    text-align: center;
+    background-color: aliceblue;
+    min-height: 50%;
+}
+.container{
+    height: 100vh;
+    background-color: rgb(17, 223, 154);
+}

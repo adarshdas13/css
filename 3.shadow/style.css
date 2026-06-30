@@ -1,0 +1,11 @@
+h2{
+    text-shadow: 2px 2px 4px rgba(234, 19, 19, 0.672), -2px -2px 4px rgba(19, 234, 76, 0.883);
+    font-size: 2em;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-color: #86adc2c1;
+    box-shadow: 10px 10px 20px;
+}
