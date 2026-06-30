@@ -1,0 +1,40 @@
+h1{
+    font-family: Oswald, sans-serif;
+    color: cyan;
+    border: 2px solid tan;
+}
+
+h2{
+    font-family: Bitcount Single, sans-serif;
+    color: yellowgreen;
+    border: 2px solid plum;
+}
+
+h3{
+    font-family: Pliant, sans-serif;
+    color: darkorange;
+    border: 2px solid lightcoral;
+}
+
+p{
+    font-family: Oswald, sans-serif;
+    color: tomato;
+    border: 2px solid gold;
+}
+
+pre{
+    font-family: Bitcount Single, sans-serif;
+    color: mediumpurple;
+    white-space: pre-wrap;
+    border: 2px solid lightblue;
+}
+
+#p2{
+    font-family: Pliant, sans-serif;
+    color: plum;
+    border: 2px solid goldenrod;
+}
+
+body{
+    background-color: black;
+}
