@@ -1,0 +1,32 @@
+#box1{
+    width: 200px;
+    height: 200px;
+    background-color: cyan;
+    position: relative;
+}
+#box2{
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    position: fixed;
+    right: 50px;
+}
+#box3{
+    width: 180px;
+    height: 180px;
+    background-color: green;
+    position: absolute;
+}
+#box4{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+#box5{
+    top: 0%;
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    position: sticky;
+    right: 50px;
+}

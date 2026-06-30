@@ -1,0 +1,23 @@
+*{
+    font-size: 22px;
+}
+li:hover{
+    background-color: cyan;
+}
+li:nth-child(3n){
+    background-color: yellow;
+}
+li:not(:hover){
+    color: tomato;
+}
+li:active{
+    background-color: chocolate;
+}
+#greet p{
+    background-color: aquamarine;
+    display: none;
+    padding: 10px;
+}
+#greet:hover p{
+    display: block;
+}
