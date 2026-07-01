@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+header{
+    background-color: rgba(214, 210, 210, 0.813);
+    text-align: center;
+    padding: 20px;
+}
+.navbar{
+    background-color: grey;
+    height: 50px;
+}
+.navbar li{
+    display: inline-block;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+main{
+    padding: 20px;
+    display: flex;
+    background-color: whitesmoke;
+}
+footer{
+    background-color: rgba(214, 210, 210, 0.813);
+    text-align: center;
+    padding: 20px;
+}
+@media screen and (max-width: 768px) {
+    main{
+        flex-direction: column;
+    }
+    .navbar li{
+        display: block;
+    }
+}
