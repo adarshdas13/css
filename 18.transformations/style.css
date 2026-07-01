@@ -1,0 +1,27 @@
+#box1{
+    width: 150px;
+    height: 150px;
+    background-color: tomato;
+    border:3px solid black;
+    font-size: 5.5em;
+    text-align: center;
+    transform: rotate(360deg) translateY(50px) skewY(20deg);
+}
+#box2{
+    width: 150px;
+    height: 150px;
+    background-color: lightblue;
+    border:3px solid black;
+    font-size: 6em;
+    text-align: center;
+    transform: rotate(180deg) translateY(-50px) skewY(20deg);  
+}
+#box3{
+    width: 150px;
+    height: 150px;
+    background-color: aquamarine;
+    border:3px solid black;
+    font-size: 6em;
+    text-align: center;
+    transform: rotate(270deg) translateX(-50px) skewX(-20deg);
+}

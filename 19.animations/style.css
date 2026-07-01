@@ -1,0 +1,73 @@
+#box1{
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 8em;
+
+    animation-name: mymove;
+    animation-duration: 4s;
+}
+@keyframes mymove {
+    from {background-color: green;}
+    to {background-color: red;}
+}
+@keyframes slideRight {
+    from {transform: translateX(0%);}
+    to {transform: translateX(100%);}
+}
+@keyframes slideLeft {
+    from {transform: translateX(100%);}
+    to {transform: translateX(0%);}
+}
+@keyframes slideDown {
+    from {transform: translateY(100%);}
+    to {transform: translateY(0%);}
+}
+@keyframes slideUp {
+    from {transform: translateY(0%);}
+    to {transform: translateY(100%);}
+}
+#box2{
+    background-color: blue;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    font-size: 7em;
+
+    animation-name: slideRight;
+    animation-duration: 4s;
+
+}
+#box3{
+    background-color: yellow;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    font-size: 7em;
+
+    animation-name: slideLeft;
+    animation-duration: 4s;
+
+}
+#box4{
+    background-color: orange;
+    width: 200px;
+    height: 150px;
+    text-align: center;
+    font-size: 7em;
+
+    animation-name: slideDown;
+    animation-duration: 4s;
+}
+#box5{
+    background-color: purple;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 7em;
+
+    animation-name: slideUp;
+    animation-duration: 4s;
+
+}
